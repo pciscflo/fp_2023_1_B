@@ -34,7 +34,7 @@ Salida: importePagar
   
 */
  
-    static double calcularPorcentajeDescuentoPorTalleres(double cantidadTalleres){
+    static double calcularPorcentajeDescuentoPorTalleres(int cantidadTalleres){
         double porcentaDescuento = 0;
         if(cantidadTalleres>=2 && cantidadTalleres<=4){
             porcentaDescuento = 0.05;
@@ -47,7 +47,7 @@ Salida: importePagar
         }
         return porcentaDescuento;
     }
-    static double calcularPrecioDescuentoPorTalleres(double cantidadTalleres, double precioTaller){
+    static double calcularPrecioDescuentoPorTalleres(int cantidadTalleres, double precioTaller){
         double porcentaje = calcularPorcentajeDescuentoPorTalleres(cantidadTalleres);
         return porcentaje*precioTaller*cantidadTalleres;
     }
