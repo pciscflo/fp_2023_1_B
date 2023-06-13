@@ -26,7 +26,7 @@ public class Ejercicio5 {
     }
     static double calcularPorcentajeAumento(int n, String tipoEmpleado,double sueldoInicial){
         double sueldoFinal = calcularSueldoFinal(n, tipoEmpleado,sueldoInicial);
-        return 100*(sueldoFinal - sueldoInicial)/(sueldoInicial + sueldoFinal);
+        return 100*(sueldoFinal - sueldoInicial)/(sueldoInicial);
     }
     static double calcularSueldoFinal(int n, String tipoEmpleado, double sueldo){
           for (int i=1 ; i<=n ; i++){
