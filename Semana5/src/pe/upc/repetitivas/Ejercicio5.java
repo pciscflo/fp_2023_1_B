@@ -16,6 +16,13 @@ public class Ejercicio5 {
 
         System.out.println("Sueldo Final:" + calcularSueldoFinal(n, tipoempleado, sueldo));
         System.out.println("Porcentaje de Aumento:" + calcularPorcentajeAumento(n, tipoempleado, sueldo));
+        System.out.println("Suma de sueldos:" + calcularSumaSueldos(n,2000,3000));
+    }
+    static double calcularSumaSueldos(int n , double sueldoGerente, double sueldoEmpleado){
+        double suma = 0;
+        suma += calcularSueldoFinal(n,"G", sueldoGerente);
+        suma += calcularSueldoFinal(n, "E", sueldoEmpleado);
+        return suma;
     }
     static double calcularPorcentajeAumento(int n, String tipoEmpleado,double sueldoInicial){
         double sueldoFinal = calcularSueldoFinal(n, tipoEmpleado,sueldoInicial);
