@@ -1,5 +1,8 @@
 package pe.upc.arreglos;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Ejercicio3 {
     /*
 Ejercicio: Ventas mensuales
@@ -44,6 +47,4 @@ de entrada un arreglo con la cantidad de unidades vendidas por cada agente comer
         }
         return nombres;
     }
-
-
 }
