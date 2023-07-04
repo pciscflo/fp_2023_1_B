@@ -40,7 +40,7 @@ Usted, como integrante del equipo de la universidad, desarrollará un programa e
 3.	Dado un arreglo de códigos, identificar el código del alumno que tiene la mayor cantidad de figuras en una determinada sede.
 4.	Dado un arreglo de códigos, identificar cuantos álbumes tienen menos de 250 figuras en total.
  */
-    
+
 
     public static void main(String[] args) {
 
